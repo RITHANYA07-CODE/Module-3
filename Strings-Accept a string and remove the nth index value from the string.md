@@ -25,17 +25,18 @@ def remove(string, n):
     return result
 
 # Input string from user
-input_string = input("Enter a string: ")
+input_string = input()
 
 # Input index to remove
-index = int(input("Enter the index of character to remove: "))
+index = int(input())
 
 # Call function and print result
 modified_string = remove(input_string, index)
-print("Modified string:", modified_string)
+print(modified_string)
 ```
 ## Output
-<img width="504" height="283" alt="image" src="https://github.com/user-attachments/assets/6b6af68f-c265-427d-9798-96523b0facea" />
+![WhatsApp Image 2025-09-01 at 17 30 45_3e07a200](https://github.com/user-attachments/assets/3775bacd-c2a6-400d-8798-04d4d70779e4)
+
 
 ## Result
 The Python program was successfully executed to remove a character at a specified index from a string.
